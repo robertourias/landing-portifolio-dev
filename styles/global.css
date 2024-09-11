@@ -53,9 +53,13 @@ img {
 }
 
 h1 {
-  font: var(--title-lg);  
+  font: var(--title-md);  
   color: var(--color-gray-600);
   margin-block: 8px 20px;
+
+  @media screen and (min-width: 768px) {
+    font: var(--title-lg);  
+  }
 }
 
 h2 {
@@ -74,7 +78,8 @@ p {
 }
 
 section { 
-  padding-block: 80px 120px
+  padding-block: 80px 120px;
+  text-align: center;
 }
 
 .subtitle {
