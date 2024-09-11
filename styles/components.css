@@ -1,0 +1,29 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  
+  .card {
+    background-color: var(--color-gray-300);
+    border-radius: 12px;
+    padding: 12px;
+    text-align: left;
+
+    img {
+      border-radius: 12px;
+      height: 156px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    dt {
+      font: var(--title-sm);
+      color: var(--color-gray-600);
+      margin-bottom: 8px;
+    }
+
+    dd {
+      margin-bottom: 8px;
+    }
+  }
+}

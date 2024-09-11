@@ -1,3 +1,40 @@
 #main {
+  background: url('../assets/Background_Intro.png') no-repeat center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  .profile {
+    margin-bottom: 56px;
+  }
+
+  .text {
+    max-width: 680px;
+    margin-inline: auto;
+  }
+
+  .tags {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 10px 20px;
+      background-color: var(--color-gray-300);
+      border-radius: 999px;
+    }
+  }
+
+  .anchor {
+    display: block;
+    margin-top: 90px;
+  }
   
 }

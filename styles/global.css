@@ -32,7 +32,8 @@
 }
 
 body {
-  background-color: gray;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-400);
   font: var(--text-md);
 }
 
@@ -43,4 +44,61 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+h1 {
+  font: var(--title-lg);  
+  color: var(--color-gray-600);
+  margin-block: 8px 20px;
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--color-gray-500);
+}
+
+h3 {
+  font: var(--title-md);
+  color: var(--color-gray-500);
+  margin-bottom: 56px;
+}
+
+p {
+  font: var(--text-sm);
+}
+
+section { 
+  padding-block: 80px 120px
+}
+
+.subtitle {
+  font: var(--subtitle);
+  margin-bottom: 8px;
+}
+
+
+.red { 
+  color: var(--color-red); 
+}
+
+.purple { 
+  color: var(--color-purple); 
+}
+
+.blue { 
+  color: var(--color-blue); 
+}
+
+.green { 
+  color: var(--color-green); 
+}
+
+.yellow { 
+  color: var(--color-yellow); 
 }
