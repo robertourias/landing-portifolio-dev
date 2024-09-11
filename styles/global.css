@@ -35,3 +35,12 @@ body {
   background-color: gray;
   font: var(--text-md);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
