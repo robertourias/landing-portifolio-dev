@@ -1,6 +1,5 @@
 #contact {
   background: url('../assets/Background_Contacts.png') no-repeat center/cover;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   text-align: center;
